@@ -5,13 +5,7 @@ const path = require("path");
 const userRoutes = require("./routes/user");
 const sauceRoutes = require("./routes/sauce");
 
-mongoose.connect('mongodb+srv://IbtissamPiiquante:Letmeclusterplz123@clusterpiiquante.is1a3p6.mongodb.net/test?retryWrites=true&w=majority',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
-  .then(() => console.log('Connexion à MongoDB réussie !'))
-  .catch(() => console.log('Connexion à MongoDB échouée !'));
+// ajouter mongoose //
 
 const app = express();
 
